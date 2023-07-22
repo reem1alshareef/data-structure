@@ -1,7 +1,9 @@
 # data-structure
 
-the project idea involves implementing and applying graph algorithms in Java. The main method recommendWCN takes a graph g, a user ID i, and an integer k as input, and returns the top k recommended friends for the given user i using the weighted common neighbors method.
+the project idea involves applying the Weighted Common Neighbors (WCN) algorithm in Java to recommend friends in a social network. The WCN algorithm assigns weights to the common neighbors between two nodes based on their degrees, and is often used in social network analysis to suggest potential friends or collaborators for a given user.
 
-The Graph class appears to be a generic graph data structure that supports operations such as adding and removing nodes and edges, and querying the neighbors and degree of a node. The Set interface is also included, providing a generic set data structure with methods to insert, remove, and search for elements, as well as iterate over the elements in ascending or descending order.
+The recommendWCN method takes a graph, a user ID, and an integer k, and returns the top k recommended friends for the given user based on their WCN scores. If the user does not exist in the graph, the method returns null.
 
-Overall, my project involve implementing graph algorithms and data structures in Java, and using them to solve problems such as recommending friends in social networks.
+the code also includes a generic Set interface that provides methods to insert, remove, search, and iterate over elements in a set.
+
+Overall,  the general idea is about implementing graph algorithms and data structures in Java, that could be useful for social network analysis or recommendation systems.
